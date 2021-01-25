@@ -35,9 +35,10 @@ class Result extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
           FlatButton(
-            onPressed: resetHandler,
-            child: Text('Restart Quiz!'),
+            child: Text('Restart Quiz!',
+            ),
             textColor: Colors.blue,
+            onPressed: resetHandler
           )
         ],
       ),
